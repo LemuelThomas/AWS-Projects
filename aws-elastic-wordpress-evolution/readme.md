@@ -30,11 +30,6 @@ Make sure you are logged into AWS and in `us-east-1`
 
 - [VPC](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?templateURL=https://learn-cantrill-labs.s3.amazonaws.com/aws-elastic-wordpress-evolution/A4LVPC.yaml&stackName=A4LVPC)
 
-## Video Guides
-
-- [HERE](https://youtu.be/wWIFJvxoWb0)
-
-
 ## Architecture Diagrams
 
 - [Stage1 - PNG](https://github.com/acantril/learn-cantrill-io-labs/blob/master/aws-elastic-wordpress-evolution/02_LABINSTRUCTIONS/STAGE1%20-%20SINGLE%20SERVER%20MANUAL.png)
