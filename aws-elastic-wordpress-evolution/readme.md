@@ -4,7 +4,7 @@ I'm going to evolve the architecture of a popular web application wordpress
 The architecture will start with a manually built single instance, running the application and database
 over the stages of the demo you will evolve this until its a scalable and resilient architecture
 
-The demo consists of 6 stages, each implementing additional components of the architecture  
+This project consists of 6 stages, each implementing additional components of the architecture  
 
 - Stage 1 - Setup the environment and manually build wordpress  
 - Stage 2 - Automate the build using a Launch Template  
