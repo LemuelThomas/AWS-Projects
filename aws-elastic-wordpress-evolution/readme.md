@@ -1,10 +1,10 @@
-# Advanced Demo - Web App - Single Server to Elastic Evolution
+# Web App - Single Server to Elastic Evolution
 
-In this advanced demo lesson you are going to evolve the architecture of a popular web application wordpress
+I'm going to evolve the architecture of a popular web application wordpress
 The architecture will start with a manually built single instance, running the application and database
 over the stages of the demo you will evolve this until its a scalable and resilient architecture
 
-The demo consists of 6 stages, each implementing additional components of the architecture  
+This project consists of 6 stages, each implementing additional components of the architecture  
 
 - Stage 1 - Setup the environment and manually build wordpress  
 - Stage 2 - Automate the build using a Launch Template  
@@ -29,11 +29,6 @@ The demo consists of 6 stages, each implementing additional components of the ar
 Make sure you are logged into AWS and in `us-east-1`  
 
 - [VPC](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?templateURL=https://learn-cantrill-labs.s3.amazonaws.com/aws-elastic-wordpress-evolution/A4LVPC.yaml&stackName=A4LVPC)
-
-## Video Guides
-
-- [HERE](https://youtu.be/wWIFJvxoWb0)
-
 
 ## Architecture Diagrams
 
