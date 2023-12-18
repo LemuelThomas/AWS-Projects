@@ -1,0 +1,7 @@
+azs = ["us-east-1a", "us-east-1b", "us-east-1c"]
+pub_cidr_blocks = ["10.16.48.0/20", "10.16.112.0/20", "10.16.176.0/20"]
+sn_pub_names = ["sn-pub-A", "sn-pub-B", "sn-pub-C"]
+db_cidr_blocks = ["10.16.16.0/20", "10.16.80.0/20", "10.16.144.0/20"]
+sn_db_names = ["sn-db-A", "sn-db-B", "sn-db-C"]
+app_cidr_blocks = ["10.16.32.0/20", "10.16.96.0/20", "10.16.160.0/20"]
+sn_app_names = ["sn-app-A", "sn-app-B", "sn-app-C"]
