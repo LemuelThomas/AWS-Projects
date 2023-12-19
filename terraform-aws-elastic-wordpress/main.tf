@@ -243,3 +243,28 @@ resource "aws_security_group_rule" "efs-sg-rule" {
   cidr_blocks       = [aws_vpc.vpcmain.cidr_block]
   security_group_id = aws_security_group.wordpress-sg.id
 }
+resource "aws_security_group" "loadbalancer-sg" {
+  name        = "allow-access"
+  description = "Control access to Load Balancer"
+  vpc_id      = aws_vpc.vpcmain.id
+
+  ingress {
+    description      = "Allow HTTP IPv4 IN"
+    from_port        = 80
+    to_port          = 80
+    protocol         = "tcp"
+    cidr_blocks      = [aws_vpc.vpcmain.cidr_block]
+  }
+
+  egress {
+    from_port        = 0
+    to_port          = 0
+    protocol         = "-1"
+    cidr_blocks      = ["0.0.0.0/0"]
+    ipv6_cidr_blocks = ["::/0"]
+  }
+
+  tags = {
+    Name = "loadbalancer-SG"
+  }
+}
