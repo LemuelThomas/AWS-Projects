@@ -1,5 +1,5 @@
 # Automating Elastic Wordpress Project Using Terraform
-This is my work for automating the entire Elastic Wordpress Project Using Terraform.
+This is my work for automating the creation of launch template, parameter store parameters, and auto scaling group
 
 ## Getting Started
 ### Install AWS CLI:
